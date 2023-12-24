@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raki Krishnan</title>
+    <link rel="stylesheet", href="style.css">
+    <script src="https://kit.fontawesome.com/17aa306595.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class = "container">
+            <nav>
+                <img src="raki-logo.png" class ="logo">
+                <ul id = "sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text" onclick="openmenu()">
+
+                <p>Data Science Student at University of Michigan</p>
+                <h1>Hi, I am <span>Raki</span> Krishnan</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------------about------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="hs.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My name is Rakesh, but I go by Raki. I am originally from Maryland, and am very passionate about
+                        the sports teams over here! On Sundays, you will find me screaming my support of the Baltimore Ravens. 
+                        As a student at University of Michigan, I am a Data Science
+                        major and part of the Honors College. I am an extremely curious person that likes to take on the biggest 
+                        of challenges. I am also passionate about creating a sustainable future and working toward
+                        solving climate change. Today, I continue to explore the intersection of data science, computer science,
+                        and environment.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer Programming</span><br>C++, Python, R, HTML/CSS, SQL, JavaScript</li>
+                            <li><span>Web Development</span><br>Both back end and front end development</li>
+                            <li><span>Statistical Modeling</span><br>R Programming analysis, hypothesis tests, and confidence intervals</li>
+                            <li><span>Data Structures and Algorithms</span><br>Designing optimal programs that can solve complex, multidimensional problems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>2023-Present</span><br>Member of Diverse Leaders for Tomorrow</li>
+                            <li><span>2022-Present</span><br>Project team member of BlueLAB Metro</li>
+                            <li><span>2021-2023</span><br>Intern at Montgomery County Green New Deal</li>
+                            <li><span>2021-2022</span><br>Intern at Bethesda Green</li>
+                            <li><span>2018-2022</span><br>Educator at KID Museum</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>2022-2025</span><br>Data science major and member of Honors College at University of Michigan</li>
+                            <li><span>2018-2022</span><br>Attended Walt Whitman High School (4.65 weighted GPA)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------------services------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>I have a lot of experience solving problems through writing efficient programs</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Statistical Analysis</h2>
+                    <p>I am able to collect and analyze data using unbiased and thorough methods.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Web Development</h2>
+                    <p>Using tools like HTML, CSS, ReactJS, and Git I am able to build user interfaces</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------projects------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="metro.png">
+                    <div class="layer">
+                        <h3>Washington DC Metro</h3>
+                        <p>Get the fastest route from any metro station to any other metro station on the map!</p>
+                            <a href="https://github.com/raki-krishnan/raki-metro"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                <div class="work">
+                    <img src="nba-logo.jpeg">
+                    <div class="layer">
+                        <h3>NBA Team Creator</h3>
+                        <p>The user drafts a team of NBA players from a vast pool and competes against an 
+                            optimized, but fair computer generated team.</p>
+                            <a href="https://github.com/raki-krishnan/raki-nba-game"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="nba-logo.jpeg">
+                    <div class="layer">
+                        <h3>Project Name</h3>
+                        <p> Lorem Ipsum ajksdaksdalsd</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <a href="https://github.com/raki-krishnan" class = "btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------------contact------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class ="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>raki@umich.edu</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>301-979-5374</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rakesh-krishnan-130942206/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/raki.krishnan.395"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/raki.krishnan/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/raki-krishnan"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href = "my-cv.pdf" download class = "btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type ="text" name = "Name" placeholder="Your name" required>
+                        <input type ="email" name = "Email" placeholder="email@exmaple.com" required>
+                        <textarea name = "Message" rows = "6" placeholder="Your message"></textarea>
+                        <button type="submit" class = "btn btn2">Submit</button>
+                    </form>
+                    <span id ="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>Copyright © Rakesh Krishnan, made with Easy Tutorials</p>
+        </div> -->
+
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <!-- This below script is for the google form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyGs2T5nPJhnYCm4ZLWq5nh6xhae5MN4YCRnI6Uk5sCa83cDXU2Q97n4uD2yaoXvG6V/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
