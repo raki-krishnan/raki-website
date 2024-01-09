@@ -1,4 +1,4 @@
-# [Your Name]'s Personal Website
+# Raki's Personal Website
 
 Welcome to the repository for my personal website! This site showcases my professional portfolio, personal projects, and more about me.
 
