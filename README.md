@@ -15,10 +15,6 @@ Welcome to the repository for my personal website! This site showcases my profes
 - **Portfolio**: Showcases my latest work and projects.
 - **Contact**: Ways to get in touch with me.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 
 ## Acknowledgments
 
