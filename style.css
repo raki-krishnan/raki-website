@@ -23,6 +23,10 @@ body{
 .container{
     padding: 10px 10%;
 }
+
+.special-container{
+    padding: 0px 10%;
+}
 nav{
     display: flex;
     align-items: center;
@@ -222,6 +226,8 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    object-fit: cover;
+
 }
 .layer{
     width: 100%;
@@ -259,6 +265,12 @@ nav ul li a:hover::after{
     height:60px;
     border-radius: 50%;
     text-align: center ;
+}
+
+.small-text-disclaimer{
+    font-size: 8px;
+    margin-top: 20px;
+    color: white;
 }
 
 .work:hover img{
