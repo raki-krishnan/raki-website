@@ -16,7 +16,7 @@ body{
 #header{
     width:100%;
     height:100vh;
-    background-image: url(background3.webp);
+    background-image: url(/images/background3.webp);
     background-size: cover;
     background-position: center;
 }
@@ -381,7 +381,7 @@ nav .fa-bars, nav .fa-xmark {
   }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(IMG_3890.PNG);
+        background-image: url(/images/IMG_3890.PNG);
     }
     .header-text{
         margin-top: 60%;
