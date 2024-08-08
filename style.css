@@ -86,7 +86,7 @@ nav ul li a:hover::after{
 
 /* <!-- -------------------------about------------------------- --> */
 #about{
-    padding:80px;
+    padding:70px;
     color: #4f4b4b;
 }
 .row{
@@ -151,6 +151,7 @@ nav ul li a:hover::after{
 }
 .tab-contents{
     display: none;
+
 }
 .tab-contents.active-tab{
     display: block;
