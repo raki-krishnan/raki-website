@@ -27,6 +27,9 @@ body{
 .special-container{
     padding: 0px 10%;
 }
+.special-container2{
+    padding: 50px 10%;
+}
 nav{
     display: flex;
     align-items: center;
